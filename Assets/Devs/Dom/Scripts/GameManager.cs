@@ -63,6 +63,7 @@ public class GameManager : MonoBehaviour
     public void WinGame()
     {
         audioPlayer.clip = winMusic;
+        audioPlayer.time = 15f;
         audioPlayer.loop = false;
         audioPlayer.Play();
     }

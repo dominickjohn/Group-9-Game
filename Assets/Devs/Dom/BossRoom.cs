@@ -22,8 +22,6 @@ public class BossRoom : MonoBehaviour
     public void CloseDown()
     {
         bossDoor.SetActive(false);
-        if(GetComponent<Boss>())
-            GetComponent<Boss>().healthbar.gameObject.SetActive(false);
         Game.GetGameManager().WinGame();
     }
     private void OnDisable()

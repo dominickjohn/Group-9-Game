@@ -99,7 +99,7 @@ MonoBehaviour:
   pickupObject: {fileID: 2363237593667826813, guid: 6c97143554b504c03b8a7e146a1c9b70,
     type: 3}
   swingSpeed: 25
-  coolDownTime: 0.5
+  coolDownTime: 0.4
   spellProjectilePrefab: {fileID: 295635332176368280, guid: 321c22f434407449a9000f69875a0708,
     type: 3}
   attackPower: 50
