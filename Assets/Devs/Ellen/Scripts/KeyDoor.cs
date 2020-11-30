@@ -18,7 +18,7 @@ public class KeyDoor : MonoBehaviour
 
     public void Update()
     {
-        if (Key.have_key == true)
+        if (Key_opendoor.have_key == true)
         {
             if (inTrigger)
             {
@@ -34,7 +34,7 @@ public class KeyDoor : MonoBehaviour
     {
         if (inTrigger)
         {
-            if (Key.have_key == true)
+            if (Key_opendoor.have_key == true)
             {
                 GUI.Box(new Rect(0, 80, 200, 25), "Press E to open the door");
             }

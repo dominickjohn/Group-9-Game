@@ -83,7 +83,7 @@ public class PlayerController : MonoBehaviour
         _moveVector.x = Input.GetAxis("Horizontal");
         _moveVector.z = Input.GetAxis("Vertical");
 
-        Ray ray = _mainCamera.ScreenPointToRay(Input.mousePosition);
+        Ray ray = Game.GetMainCamera().ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         
         if (Physics.Raycast(ray, out hit))

@@ -45,15 +45,15 @@ public class potion : MonoBehaviour
                 rand = spriterand;
                 if (Sprite_Pic[spriterand].name == "S_ItemHeavyOutline_JarBlue_01")
                 {
-                    Instantiate(prefeb[rand], new Vector3(-0.5f, 0, -6f), Quaternion.identity);
+                    Instantiate(prefeb[rand], transform.position, Quaternion.identity);
                 }
                 else if (Sprite_Pic[spriterand].name == "S_ItemHeavyOutline_JarGreen_01")
                 {
-                    Instantiate(prefeb[rand], new Vector3(-0.5f, 0, -6f), Quaternion.identity);
+                    Instantiate(prefeb[rand], transform.position, Quaternion.identity);
                 }
                 else
                 {
-                    Instantiate(prefeb[rand], new Vector3(-0.5f, 0, -6f), Quaternion.identity);
+                    Instantiate(prefeb[rand], transform.position, Quaternion.identity);
                 }
                 Destroy(gameObject);
             }

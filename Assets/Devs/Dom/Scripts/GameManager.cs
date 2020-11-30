@@ -21,8 +21,21 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI keyCount;
     public TextMeshProUGUI coinCount;
 
+    public AudioClip titleMusic;
+    public AudioClip backgroundLoop;
+    public AudioClip winMusic;
+    public AudioClip bossMusic;
+    public AudioSource audioPlayer;
+
     public void StartNewGame()
     {
+        audioPlayer.clip = backgroundLoop;
+        audioPlayer.loop = true;
+        audioPlayer.Play();
+        
+        GameObject.Find("WinScreen").GetComponent<CanvasGroup>().alpha = 0;
+        GameObject.Find("WinScreen").GetComponent<CanvasGroup>().blocksRaycasts = false;
+        
         // Reset player status
         _player.GetComponent<Player>().MaxHealth = 3;
         _player.GetComponent<Player>().Health = 1;
@@ -30,9 +43,35 @@ public class GameManager : MonoBehaviour
         // Finish any special effects
         hurtRedFader.DOComplete();
         hurtRedFader.alpha = 0;
+        _player.EquipWeapon(0);
+        //var inventory = FindObjectsOfType<Slot>();
+        //foreach(var slot in inventory) slot.DropItem();
+        
+        GameObject.Find("GAMEBASE/Player/Fireone").SetActive(false);
+        GameObject.Find("GAMEBASE/Player/Firetwo").SetActive(false);
+        GameObject.Find("GAMEBASE/Player/FireThree").SetActive(false);
         
         // Load first scene
         LoadScene(1);
+    }
+
+    public void WinGame()
+    {
+        audioPlayer.clip = winMusic;
+        audioPlayer.loop = false;
+        audioPlayer.Play();
+    }
+
+    public void BossBattle()
+    {
+        audioPlayer.clip = bossMusic;
+        audioPlayer.loop = true;
+        audioPlayer.Play();
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
     public void LoadScene(int index)
@@ -82,6 +121,10 @@ public class GameManager : MonoBehaviour
 
     public void OnPlayerDie()
     {
+        audioPlayer.clip = titleMusic;
+        audioPlayer.loop = true;
+        audioPlayer.Play();
+        
         _player.GetComponent<Player>().invulnerable = true;
         _player.canControl = false;
         

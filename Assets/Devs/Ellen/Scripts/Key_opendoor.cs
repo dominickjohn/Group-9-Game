@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class Key : MonoBehaviour
+public class Key_opendoor : MonoBehaviour
 {
     public bool inTrigger;
     public Animation opendoor;
@@ -30,7 +30,7 @@ public class Key : MonoBehaviour
                 have_key = true;
                 Destroy(this.gameObject);  
             }
-        }
+        } 
     }
 
     private void OnGUI()

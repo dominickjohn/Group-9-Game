@@ -3227,6 +3227,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2587823072451836082, guid: 0c9c5f7e4fb76425fbb7b7c7236b4abb,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6977770266857564623, guid: 0c9c5f7e4fb76425fbb7b7c7236b4abb,
         type: 3}
       propertyPath: m_Name
@@ -4239,7 +4244,7 @@ PrefabInstance:
     - target: {fileID: 8807902516237759805, guid: d4a5e878e9bac4d4584b65cee4306553,
         type: 3}
       propertyPath: maxHealth
-      value: 600
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 8807902516237759805, guid: d4a5e878e9bac4d4584b65cee4306553,
         type: 3}
@@ -4281,6 +4286,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1288926423}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1288926425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288926424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb1bc284e92ea4436b47a6c261b57430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossDoor: {fileID: 1752201201}
 --- !u!4 &1288926430 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8807902516237759803, guid: d4a5e878e9bac4d4584b65cee4306553,
@@ -4306,15 +4324,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4299952606933750, guid: 968c924d2be019d4b9e67647551eec3e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.09
+      value: 8.44
       objectReference: {fileID: 0}
     - target: {fileID: 4299952606933750, guid: 968c924d2be019d4b9e67647551eec3e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.39
       objectReference: {fileID: 0}
     - target: {fileID: 4299952606933750, guid: 968c924d2be019d4b9e67647551eec3e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.6327457
+      value: 7.96
       objectReference: {fileID: 0}
     - target: {fileID: 4299952606933750, guid: 968c924d2be019d4b9e67647551eec3e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5811,6 +5829,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 899984955566043179, guid: e41287cbef5358147ba8f455ea3dd190,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 899984955566043182, guid: e41287cbef5358147ba8f455ea3dd190,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5892,7 +5915,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1752201201}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80b0af518d557504fa2e1db5507c574a, type: 3}
   m_Name: 

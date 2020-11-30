@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -34,6 +35,7 @@
             </e>
           </e>
           <e p="Dom" t="Include">
+            <e p="BossRoom.cs" t="Include" />
             <e p="Scripts" t="Include">
               <e p="Arrow.cs" t="Include" />
               <e p="Billboard.cs" t="Include" />
@@ -73,6 +75,7 @@
               <e p="Wand.cs" t="Include" />
               <e p="Weapon.cs" t="Include" />
               <e p="WeaponPickUp.cs" t="Include" />
+              <e p="WinGame.cs" t="Include" />
             </e>
           </e>
           <e p="Ellen" t="Include">
@@ -129,6 +132,7 @@
               <e p="Spike.cs" t="Include" />
               <e p="WallSpike.cs" t="Include" />
               <e p="Weapons.cs" t="Include" />
+              <e p="witch.cs" t="Include" />
             </e>
           </e>
           <e p="Zihao" t="Include">
@@ -150,6 +154,7 @@
               </e>
             </e>
             <e p="Scripts" t="Include">
+              <e p="BossDoor.cs" t="Include" />
               <e p="Enemy" t="Include">
                 <e p="Attack.cs" t="Include" />
                 <e p="Boss.cs" t="Include" />
@@ -157,6 +162,7 @@
                 <e p="EnemyAI.cs" t="Include" />
                 <e p="enemyspwan.cs" t="Include" />
                 <e p="Skeleton.cs" t="Include" />
+                <e p="Skeleton_BossRoom.cs" t="Include" />
                 <e p="StormHead.cs" t="Include" />
               </e>
               <e p="Loot" t="Include">
@@ -172,6 +178,14 @@
           </e>
           <e p="Using Objects" t="Include">
             <e p="CubeSpinner.cs" t="Include" />
+          </e>
+        </e>
+        <e p="JMO Assets" t="Include">
+          <e p="Cartoon FX Easy Editor" t="Include">
+            <e p="CartoonFX Easy Editor Readme.txt" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="CFXEasyEditor.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Plugins" t="Include">

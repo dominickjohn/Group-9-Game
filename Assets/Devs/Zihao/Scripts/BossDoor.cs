@@ -32,7 +32,7 @@ public class BossDoor : MonoBehaviour
     {
         if (inTrigger)
         {
-            if (Key.have_key == true)
+            if (Key_opendoor.have_key == true)
             {
                 GUI.Box(new Rect(0, 60, 200, 25), "Press E to open the door");
             }

@@ -1,8 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Net.Mime;
+﻿
 using UnityEngine.UI;
-using UnityEditor.Animations;
 using UnityEngine;
 
 public class PlayerHealthDisplay : MonoBehaviour

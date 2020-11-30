@@ -2,42 +2,73 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoorScript : MonoBehaviour, Useable
+public class DoorScript : MonoBehaviour
 {
-    Animator anim;
-    public bool isLocked = false;
-    void Start ()
+    public static bool doorKey;
+    public bool open;
+    public bool close;
+    public bool inTrigger;
+
+    void OnTriggerEnter(Collider other)
     {
-        anim = GetComponent<Animator>();
+        inTrigger = true;
     }
 
-    public void OpenDoor()
+    void OnTriggerExit(Collider other)
     {
-        // Door destroys itself
-        anim.SetTrigger("door");   
+        inTrigger = false;
     }
 
-    public void OnUse()
+    void Update()
     {
-        if (isLocked)
+        if (inTrigger)
         {
-            if (Game.GetGameManager().KeyCount > 0)
+            if (close)
             {
-                Game.GetGameManager().KeyCount = Game.GetGameManager().KeyCount - 1;
-                isLocked = false;
-                OpenDoor();
+                if (doorKey)
+                {
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        open = true;
+                        close = false;
+                    }
+                }
             }
-            return;
+            else
+            {
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    close = true;
+                    open = false;
+                }
+            }
         }
-        
-        OpenDoor();
+
+        if (open)
+        {
+            transform.position -= new Vector3(0, 2, 0);
+        }
     }
 
-    public void OnSelect()
+    void OnGUI()
     {
-    }
-
-    public void OnDeselect()
-    {
+        if (inTrigger)
+        {
+            if (open)
+            {
+                GUI.Box(new Rect(0, 0, 200, 25), "Press E to close");
+            }
+            else
+            {
+                if (doorKey)
+                {
+                    GUI.Box(new Rect(0, 0, 200, 25), "Press E to open");
+                }
+                else
+                {
+                    GUI.Box(new Rect(0, 0, 200, 25), "Need a key!");
+                }
+            }
+        }
     }
 }

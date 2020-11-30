@@ -13,6 +13,7 @@ public class ActiveFire : MonoBehaviour
     void Start()
     {
         fire = GameObject.Find("Fire/Fire");
+        fire = transform.GetChild(0).gameObject;
         fire.SetActive(false);
 
         fireone = GameObject.Find("GAMEBASE/Player/Fireone");

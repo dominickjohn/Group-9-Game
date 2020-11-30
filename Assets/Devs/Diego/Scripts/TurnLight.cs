@@ -8,7 +8,7 @@ public class TurnLight : MonoBehaviour
     public GameObject light;
     private bool on = false;
 
-    void OnTriggerStay(Collider plyr)
+    public void OnTriggerStay(Collider plyr)
     {
         if (plyr.tag == "Player" && Input.GetKeyDown(KeyCode.E) && !on)
         {

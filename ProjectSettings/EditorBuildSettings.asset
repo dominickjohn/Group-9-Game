@@ -6,9 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_StartScreen.unity
+    path: Assets/Levels/_StartScreen.unity
     guid: 4c91415c62bcc4f40b883ca36b1a0561
   - enabled: 1
     path: Assets/Levels/Level1-StartingPrisonRoom.unity
     guid: c8e24457ec2564b9ea3775c73408d6b2
+  - enabled: 1
+    path: Assets/Levels/CadeLevel.unity
+    guid: 686508053fb83bf44aa17f33d7b87941
+  - enabled: 1
+    path: Assets/Levels/Huaqi_Traps.unity
+    guid: 519c8a611faafc740b05bbdaccbc72a4
+  - enabled: 1
+    path: Assets/Levels/Level3.unity
+    guid: e724bea0f52e3864696448b6effaee2b
+  - enabled: 1
+    path: Assets/Levels/BossRoom_PlanB_Zihao.unity
+    guid: 5352af80aa2392e4bb204e96776275d4
+  - enabled: 1
+    path: Assets/Levels/_WinScreen.unity
+    guid: d903f75063c3d460585a21ba1c60084d
   m_configObjects: {}

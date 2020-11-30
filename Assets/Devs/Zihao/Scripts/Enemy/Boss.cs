@@ -163,6 +163,7 @@ public class Boss : MonoBehaviour, Damageable
             Death2.GetComponent<ParticleSystem>().Play();
             Death3.GetComponent<ParticleSystem>().Play();
             Death4.GetComponent<ParticleSystem>().Play();
+            GetComponent<BossRoom>().CloseDown();
             Die();
         }
 

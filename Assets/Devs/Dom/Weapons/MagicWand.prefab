@@ -102,7 +102,7 @@ MonoBehaviour:
   coolDownTime: 0.5
   spellProjectilePrefab: {fileID: 295635332176368280, guid: 321c22f434407449a9000f69875a0708,
     type: 3}
-  attackPower: 4
+  attackPower: 50
 --- !u!1 &3098791618025414058
 GameObject:
   m_ObjectHideFlags: 0
