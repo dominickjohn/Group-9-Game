@@ -4782,9 +4782,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fbf0ae513066401586c4c4f09aa5355, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
+  damage: 15
   speed: 6
-  spinSpeed: 0
   destroyPrefab: {fileID: 671103566061060150, guid: 2d6dca14bd8dd4fa084a72b3ea892a95,
     type: 3}
 --- !u!54 &8258654184539170876

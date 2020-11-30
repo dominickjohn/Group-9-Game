@@ -25,10 +25,15 @@
                 <e p="PlayerMovement.cs" t="Include" />
               </e>
             </e>
-            <e p="Door.cs" t="Include" />
             <e p="Scripts" t="Include">
+              <e p="Door.cs" t="Include" />
+              <e p="DoorKey.cs" t="Include" />
+              <e p="DoorLightTrigger.cs" t="Include" />
+              <e p="DoorSciptTrigger.cs" t="Include" />
               <e p="DoorScript.cs" t="Include" />
+              <e p="DoorScriptFinal.cs" t="Include" />
               <e p="EventSample.cs" t="Include" />
+              <e p="InstructionText.cs" t="Include" />
               <e p="LightScript.cs" t="Include" />
               <e p="PuzzleTriggerEvent.cs" t="Include" />
               <e p="TurnLight.cs" t="Include" />
@@ -172,6 +177,7 @@
             </e>
           </e>
         </e>
+        <e p="DoorLightController.cs" t="Include" />
         <e p="Example Scenes" t="Include">
           <e p="Damageable Objects" t="Include">
             <e p="CubeTrainingDummy.cs" t="Include" />

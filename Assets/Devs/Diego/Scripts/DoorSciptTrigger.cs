@@ -13,6 +13,15 @@ public class DoorSciptTrigger : MonoBehaviour
     {
         OpenDoor();
     }
+
+    public void OnSelect()
+    {
+    }
+
+    public void OnDeselect()
+    {
+    }
+
     // Update is called once per frame
     void Update()
     {

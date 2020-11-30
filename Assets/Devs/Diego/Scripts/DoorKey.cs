@@ -20,19 +20,12 @@ public class DoorKey : MonoBehaviour
     {
         if (inTrigger)
         {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                DoorScript.doorKey = true;
+            Game.GetGameManager().KeyCount++;
                 Destroy(this.gameObject);
-            }
         }
     }
 
     void OnGUI()
     {
-        if (inTrigger)
-        {
-            GUI.Box(new Rect(0, 60, 200, 25), "Press E to take key");
-        }
     }
 }

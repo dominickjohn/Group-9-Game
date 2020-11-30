@@ -25,11 +25,13 @@ public class DoorScript : MonoBehaviour
         {
             if (close)
             {
-                if (doorKey)
+                if (Game.GetGameManager().KeyCount > 0)
                 {
                     if (Input.GetKeyDown(KeyCode.E))
                     {
                         open = true;
+                        Game.GetGameManager().KeyCount--;
+                        Destroy(gameObject);
                         close = false;
                     }
                 }
@@ -60,13 +62,13 @@ public class DoorScript : MonoBehaviour
             }
             else
             {
-                if (doorKey)
+                if (Game.GetGameManager().KeyCount > 0)
                 {
-                    GUI.Box(new Rect(0, 0, 200, 25), "Press E to open");
+                    GUI.Box(new Rect(Screen.width * 0.5f, Screen.height * 0.5f, 200, 25), "Press E to open");
                 }
                 else
                 {
-                    GUI.Box(new Rect(0, 0, 200, 25), "Need a key!");
+                    GUI.Box(new Rect(Screen.width * 0.5f, Screen.height * 0.5f, 200, 25), "Need a key!");
                 }
             }
         }

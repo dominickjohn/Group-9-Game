@@ -53,6 +53,11 @@ public class GameManager : MonoBehaviour
         
         // Load first scene
         LoadScene(1);
+        
+        audioPlayer.Stop();
+        audioPlayer.clip = backgroundLoop;
+        audioPlayer.loop = true;
+        audioPlayer.Play();
     }
 
     public void WinGame()

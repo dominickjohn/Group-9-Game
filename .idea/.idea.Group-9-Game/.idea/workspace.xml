@@ -20,48 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/BossRoom.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/WinGame.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/WinGame.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/Huaqi_Traps.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/Huaqi_Traps.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/Level3.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/Level3.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/_StartScreen.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/_StartScreen.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/_WinScreen.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/_WinScreen.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/d7lmopd-c787d6e6-e595-4594-8ed8-4e2fcc6986f5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/d7lmopd-c787d6e6-e595-4594-8ed8-4e2fcc6986f5.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Diego/Apartment_Door/Scripts/DoorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Diego/Apartment_Door/Scripts/DoorController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Diego/Door.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Diego/Door.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Diego/PuzzleandBossLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Diego/PuzzleandBossLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/Door.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/Door.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorSciptTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorSciptTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/FireBall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/FireBall.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Weapons/MagicWand.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Weapons/MagicWand.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Scenes/Huaqi_Traps.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Scenes/Huaqi_Traps.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/ActiveFire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/ActiveFire.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/ActiveFire_l.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/ActiveFire_l.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/KeyDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/KeyDoor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/Key_opendoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/Key_opendoor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/Weapons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/Weapons.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/potion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/potion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Scripts/BossDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Scripts/BossDoor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Scripts/Enemy/Boss.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Scripts/Enemy/Boss.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Levels/BossRoom_PlanB_Zihao.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/BossRoom_PlanB_Zihao.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/CadeLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/CadeLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Level1-StartingPrisonRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Level1-StartingPrisonRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Level3/Level3.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Level3/Level3.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Tileset.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Tileset.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_StartScreen.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_StartScreen.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UniversalRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UniversalRenderPipelineAsset.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +49,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Wand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Throwable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Diego/Scripts/EventSample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorKey.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" root0="FORCE_HIGHLIGHTING" />
@@ -102,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Zihao/Scripts/Guns.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" />
@@ -133,7 +104,6 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Wand.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Throwable.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/PuzzleTriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/HeartContainer.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Destructable.cs" />
@@ -148,11 +118,13 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/Weapons.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/WinGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Diego/Apartment_Door/Scripts/DoorController.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Zihao/Scripts/Enemy/Boss.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/BossRoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorSciptTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorScript.cs" />
       </list>
     </option>
   </component>
@@ -237,7 +209,7 @@
       <workItem from="1606686050693" duration="392000" />
       <workItem from="1606686900292" duration="2074000" />
       <workItem from="1606689699281" duration="161000" />
-      <workItem from="1606690290723" duration="2109000" />
+      <workItem from="1606690290723" duration="3712000" />
     </task>
     <servers />
   </component>
@@ -264,10 +236,10 @@
       <screen x="-2560" y="-182" width="2560" height="1350" />
     </state>
     <state x="-1716" y="264" key="Rider.ProjectTemplateDialog.Size/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1600974949455" />
-    <state x="-1433" y="193" key="RiderGenerateDialog" timestamp="1606180500312">
+    <state x="-1433" y="193" key="RiderGenerateDialog" timestamp="1606696761875">
       <screen x="-2560" y="-180" width="2560" height="1325" />
     </state>
-    <state x="-1433" y="193" key="RiderGenerateDialog/-2560.-180.2560.1325/0.25.1680.1025@-2560.-180.2560.1325" timestamp="1606180500312" />
+    <state x="-1433" y="193" key="RiderGenerateDialog/-2560.-180.2560.1325/0.25.1680.1025@-2560.-180.2560.1325" timestamp="1606696761875" />
     <state x="-1301" y="224" key="RiderGenerateDialog/-2560.-180.2560.1328/0.25.1680.1025@-2560.-180.2560.1328" timestamp="1605458710044" />
     <state x="-1301" y="229" key="RiderGenerateDialog/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1601945504535" />
     <state x="-1433" y="149" width="670" height="664" key="search.everywhere.popup" timestamp="1606688507173">

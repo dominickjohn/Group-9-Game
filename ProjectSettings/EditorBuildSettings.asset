@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Levels/Level3.unity
     guid: e724bea0f52e3864696448b6effaee2b
   - enabled: 1
+    path: Assets/Devs/Diego/PuzzleandBossLevel.unity
+    guid: 2530f248a2a2b114385a3713c9a77a28
+  - enabled: 1
     path: Assets/Levels/BossRoom_PlanB_Zihao.unity
     guid: 5352af80aa2392e4bb204e96776275d4
   - enabled: 1

@@ -592,12 +592,12 @@ PrefabInstance:
     - target: {fileID: 3639360621638928496, guid: e37f819a68c524c4e9a03bbaba21c0da,
         type: 3}
       propertyPath: m_MaxValue
-      value: 600
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 3639360621638928496, guid: e37f819a68c524c4e9a03bbaba21c0da,
         type: 3}
       propertyPath: m_Value
-      value: 600
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 3639360621638928499, guid: e37f819a68c524c4e9a03bbaba21c0da,
         type: 3}
@@ -4244,7 +4244,7 @@ PrefabInstance:
     - target: {fileID: 8807902516237759805, guid: d4a5e878e9bac4d4584b65cee4306553,
         type: 3}
       propertyPath: maxHealth
-      value: 250
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 8807902516237759805, guid: d4a5e878e9bac4d4584b65cee4306553,
         type: 3}
