@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/BossRoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/BossRoom.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/BossRoom_PlanB_Zihao.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/BossRoom_PlanB_Zihao.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,10 +111,10 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Diego/Apartment_Door/Scripts/DoorController.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Zihao/Scripts/Enemy/Boss.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorSciptTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorKey.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/BossRoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -200,7 +199,8 @@
       <workItem from="1606686050693" duration="392000" />
       <workItem from="1606686900292" duration="2074000" />
       <workItem from="1606689699281" duration="161000" />
-      <workItem from="1606690290723" duration="4515000" />
+      <workItem from="1606690290723" duration="5065000" />
+      <workItem from="1606771726550" duration="608000" />
     </task>
     <servers />
   </component>
